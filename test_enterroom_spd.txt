@@ -1,0 +1,9 @@
+
+2017-01-24 11:46:24:0071 用户:25232682 房间:288888 耗时:0000 	LogRecorder::SystemKernel_EnterRoomRQ
+2017-01-24 11:46:25:0149 用户:25232682 房间:288888 耗时:1078 	LogRecorder::RoomKernel_EnterRoomRQ
+2017-01-24 11:46:25:0518 用户:25232682 房间:288888 耗时:1453 	LogRecorder::RLSP_EnterRoomRS
+2017-01-24 11:46:25:0534 用户:25232682 房间:288888 耗时:1469 	LogRecorder::RoomKernel_Logged
+2017-01-24 11:46:25:0546 用户:25232682 房间:288888 耗时:1469 	LogRecorder::CMSP_Registed
+
+2017-02-08 11:50:14:0245 用户:25232682 房间:207080 耗时:0000 	LogRecorder::SystemKernel_EnterRoomRQ
+2017-02-08 11:50:14:0560 用户:25232682 房间:207080 耗时:0312 	LogRecorder::RoomKernel_EnterRoomRQ
