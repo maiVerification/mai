@@ -96,14 +96,14 @@ $(function() {
         url:'http://api.58muzi.com/api/public/Lotteryinformation',
         data: {getcode:'f4d1c6b1861ba7b60175a777ca50c45c'},
         type:'get',
-        async:true,
+        async:false,
         jsonp:'jsoncallback',
         success:function(d){
             $.ajax({
                 url:'http://api.58muzi.com/api/public/Lotteryinformation',
                 data: {getcode:'c89b1838a076c6bf04d2ba2e17ff0dde',yan:d},
                 type:'get',
-                async:true,
+                async:false,
                 dataType: "json",  
                 success:function(d){
                     $(".yan-list").html(d.html);
@@ -124,7 +124,7 @@ $(".btn-Verify").click(function(){
         data: {getcode:'9f01f8e7b5824a3e88158f7d3cb933b0',yan:yan},
         type:'get',
         dataType: "json", 
-        async:true, 
+        async:false, 
         jsonp:'jsoncallback',
         success:function(d){
             
