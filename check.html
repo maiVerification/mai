@@ -93,14 +93,13 @@
 $(function() {
     
     $.ajax({
-        url:'http://api.58muzi.com/make.php',
+        url:'check.php',
         data: {getcode:'f4d1c6b1861ba7b60175a777ca50c45c'},
         type:'get',
         async:false,
-        jsonp:'jsoncallback',
         success:function(d){
             $.ajax({
-                url:'http://api.58muzi.com/make.php',
+                url:'check.php',
                 data: {getcode:'c89b1838a076c6bf04d2ba2e17ff0dde',yan:d},
                 type:'get',
                 async:false,
@@ -120,12 +119,11 @@ $(function() {
 $(".btn-Verify").click(function(){
     var yan = $(".yan-ipt01").val();
     $.ajax({
-        url:'http://api.58muzi.com/make.php',
+        url:'check.php',
         data: {getcode:'9f01f8e7b5824a3e88158f7d3cb933b0',yan:yan},
         type:'get',
         dataType: "json", 
         async:false, 
-        jsonp:'jsoncallback',
         success:function(d){
             
             $("#yan-ipt02").val(d.probability);
