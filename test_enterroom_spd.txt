@@ -7,3 +7,9 @@
 
 2017-02-08 11:50:14:0245 用户:25232682 房间:207080 耗时:0000 	LogRecorder::SystemKernel_EnterRoomRQ
 2017-02-08 11:50:14:0560 用户:25232682 房间:207080 耗时:0312 	LogRecorder::RoomKernel_EnterRoomRQ
+
+
+321321
+3
+21
+312
