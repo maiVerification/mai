@@ -3,7 +3,7 @@ header("Content-Type:text/html; charset=utf-8");
 
 
 
-$getcode = $_POST['getcode'];
+$getcode = $_GET['getcode'];
 
 
 if($getcode == md5("MAIC777777")){
@@ -14,7 +14,7 @@ if($getcode == md5("MAIC777777")){
 
 if($getcode == md5("MAIC666666")){
 	
-	$yan = $_POST['yan'];
+	$yan = $_GET['yan'];
 
 	//加密地址接口地址返回
 	$data = doGet("http://api.58muzi.com/api/public/Lotteryinformation");
@@ -42,7 +42,7 @@ if($getcode == md5("MAIC666666")){
 }
 
 if($getcode == md5("MAIC888888")){
-	$yan = $_POST['yan'];
+	$yan = $_GET['yan'];
 	//probability
 	$data = doGet("http://api.58muzi.com/api/public/Lotteryinformation?hash=".$yan);
 	$result = json_decode($data,true);
